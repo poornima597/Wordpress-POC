@@ -1,0 +1,10 @@
+.card-header {
+	min-height: 28px;
+	margin:  0 !important;
+}
+.card-header :last-child {
+	margin: 0 !important;
+}
+.card > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block {
+	margin: 0 !important;
+}

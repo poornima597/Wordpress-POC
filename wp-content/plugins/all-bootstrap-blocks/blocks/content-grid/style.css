@@ -1,0 +1,316 @@
+.areoi-content-grid-item .aligncenter {
+    margin: 0 auto;
+}
+.areoi-content-grid-item {
+    padding-top: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+}
+
+/* 
+ * ---------------------------------------------------
+ * Media grid
+ * --------------------------------------------------
+ */
+.areoi-media-grid .areoi-content-grid-columns figure {
+    display: block;
+    margin: 0;
+    padding-top: calc(var(--bs-gutter-x) * .5);
+    padding-bottom: calc(var(--bs-gutter-x) * .5);
+    position: relative;
+}
+.areoi-media-grid.areoi-content-grid-full .areoi-content-grid-columns > figure {
+    padding: 0;
+}
+.areoi-media-grid .areoi-content-grid-columns figure > div,
+.areoi-media-grid .areoi-content-grid-columns figure > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.areoi-media-grid .areoi-content-grid-columns figure > div > img,
+.areoi-media-grid .areoi-content-grid-columns figure > a > img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height:  50%;
+    transform: translate( -50%, -50% );
+    object-fit: cover;
+}
+.areoi-media-grid .areoi-content-grid-columns figcaption {
+    display: none;
+}
+.areoi-media-grid .areoi-content-grid-columns figure > figcaption {
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: calc(var(--bs-gutter-x) * .5);
+    text-align: center;
+}
+
+/* 
+ * ---------------------------------------------------
+ * Item size
+ * --------------------------------------------------
+ */
+.areoi-content-grid-item .card-body > div {
+    max-width: 550px;
+}
+
+
+/* 
+ * ---------------------------------------------------
+ * Card size
+ * --------------------------------------------------
+ */
+.areoi-card-extra-small.areoi-content-grid-item,
+.areoi-card-extra-small.areoi-media-grid .areoi-content-grid-columns figure {
+    min-height: 20vh;
+}
+.areoi-card-small.areoi-content-grid-item,
+.areoi-card-small.areoi-media-grid .areoi-content-grid-columns figure {
+    min-height: 40vh;
+}
+.areoi-card-medium.areoi-content-grid-item,
+.areoi-card-medium.areoi-media-grid .areoi-content-grid-columns figure {
+    min-height: 60vh;
+}
+.areoi-card-large.areoi-content-grid-item,
+.areoi-card-large.areoi-media-grid .areoi-content-grid-columns figure {
+    min-height: 80vh;
+}
+.areoi-card-extra-large.areoi-content-grid-item,
+.areoi-card-extra-large.areoi-media-grid .areoi-content-grid-columns figure {
+    min-height: 100vh;
+}
+
+/* 
+ * ---------------------------------------------------
+ * Media size
+ * --------------------------------------------------
+ */
+.areoi-content-grid-item .card-img-top {
+    display: none;
+    height: 40vh;
+}
+.areoi-extra-small .areoi-content-grid-item .card-img-top {
+    height: 10vh;
+}
+.areoi-small .areoi-content-grid-item .card-img-top {
+    height: 20vh;
+}
+.areoi-medium .areoi-content-grid-item .card-img-top {
+    height: 30vh;
+}
+.areoi-extra-large .areoi-content-grid-item .card-img-top {
+    height: 50vh;
+}
+.areoi-content-grid-item.has-image .card-img-top {
+    display: block;
+}
+
+
+/* 
+ * ---------------------------------------------------
+ * Media layout
+ * --------------------------------------------------
+ */
+.areoi-media .areoi-media-container {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.areoi-media .areoi-media-container img,
+.areoi-media .areoi-media-container video {
+    max-width: unset;
+    max-height: unset;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+}
+.areoi-media .areoi-media-container.start:not(.cover, .contain) img,
+.areoi-media .areoi-media-container.start:not(.cover, .contain) video {
+    top: 50%;
+    left: 1rem;
+    transform: translate( 0, -50% );
+}
+.areoi-media .areoi-media-container.end:not(.cover, .contain) img,
+.areoi-media .areoi-media-container.end:not(.cover, .contain) video {
+    top: 50%;
+    left: auto;
+    right: 1rem;
+    transform: translate( 0, -50% );
+}
+.areoi-media .areoi-media-container.cover img,
+.areoi-media .areoi-media-container.cover video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.areoi-media .areoi-media-container.contain img,
+.areoi-media .areoi-media-container.contain video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* 
+ * ---------------------------------------------------
+ * Grid size
+ * --------------------------------------------------
+ */
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns,
+.areoi-media-grid > div > figure {
+    display: grid !important;
+    grid-auto-rows: 1fr;
+    min-height: 100px;
+}
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-1,
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-2,
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-3,
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-4,
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-5,
+.areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-6 {
+    grid-template-columns: 1fr;
+}
+
+
+/* 
+ * ---------------------------------------------------
+ * SM Grid size
+ * --------------------------------------------------
+ */
+@media only screen and ( min-width: 576px ) {
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-2,
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-3,
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-4,
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-5,
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-6 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(even),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(even),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(even),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(even) {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(4),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(7),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(4),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(7),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(4),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(7),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(4),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(7)
+    {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+
+/* 
+ * ---------------------------------------------------
+ * LG Grid size
+ * --------------------------------------------------
+ */
+@media only screen and ( min-width: 992px ) {
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(even),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(even),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(even),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(odd),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(even) {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(5),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(9) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(4),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(8),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-3 .areoi-content-grid-item:nth-of-type(12) {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item,
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(4),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(7) {
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(7) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-4 .areoi-content-grid-item:nth-of-type(6) {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-5 {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(9) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-5 .areoi-content-grid-item:nth-of-type(8) {
+        grid-column-start: 4;
+        grid-column-end: 6;
+    }
+
+    .areoi-content-grid > div > .row > .col > .areoi-content-grid-columns.areoi-content-grid-columns-6 {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(1),
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(9) {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .areoi-content-grid-masonry .areoi-content-grid-columns-6 .areoi-content-grid-item:nth-of-type(8) {
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+}

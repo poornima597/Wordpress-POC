@@ -1,0 +1,95 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/list-group",
+	"title": "List Group",
+	"parent": null,
+	"category": "areoi-components",
+	"description": "List groups are a flexible and powerful component for displaying a series of content.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+		"flush": {
+			"type": "string",
+			"default": null
+		},
+		"layout": {
+			"type": "string",
+			"default": null
+		},
+
+		"layout_xs": {
+			"type": "string",
+			"default": null
+		},
+		"layout_sm": {
+			"type": "string",
+			"default": null
+		},
+		"layout_md": {
+			"type": "string",
+			"default": null
+		},
+		"layout_lg": {
+			"type": "string",
+			"default": null
+		},
+		"layout_xl": {
+			"type": "string",
+			"default": null
+		},
+		"layout_xxl": {
+			"type": "string",
+			"default": null
+		},
+
+		"hide_xs": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_sm": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_md": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_lg": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xl": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xxl": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

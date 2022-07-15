@@ -1,0 +1,61 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/column-break",
+	"title": "Column Break",
+	"category": "areoi-layout",
+	"parent": null,
+	"description": "Breaking columns to a new line in flexbox requires a small hack: add an element with width: 100% wherever you want to wrap your columns to a new line. Normally this is accomplished with multiple .rows, but not every implementation method can account for this.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+		"hide_xs": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_sm": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_md": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_lg": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xl": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xxl": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

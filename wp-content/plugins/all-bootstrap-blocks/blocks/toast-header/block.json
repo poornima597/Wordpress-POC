@@ -1,0 +1,37 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/toast-header",
+	"title": "Toast Header",
+	"parent": [ "areoi/toast" ],
+	"category": "areoi-components",
+	"description": "Add an optional header within an toast.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

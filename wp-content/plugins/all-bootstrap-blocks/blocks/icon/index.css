@@ -1,0 +1,9 @@
+@import url('../../src/bootstrap-icons-1.8.1/bootstrap-icons.css');
+
+.areoi-icon {
+    padding: 20px;
+    border: 1px dashed #ddd;
+}
+.areoi-icon .block-editor-inner-blocks {
+    display: none;
+}

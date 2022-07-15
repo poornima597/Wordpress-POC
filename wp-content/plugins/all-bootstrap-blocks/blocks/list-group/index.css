@@ -1,0 +1,12 @@
+.wp-block-areoi-list-group {
+    min-height: 40px;
+    border:  1px dashed #ccc;
+    padding: 28px 0;
+}
+.wp-block-areoi-list-group > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    
+}
+.wp-block-areoi-list-group.list-group-horizontal > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: flex;
+    flex-direction: row;
+}

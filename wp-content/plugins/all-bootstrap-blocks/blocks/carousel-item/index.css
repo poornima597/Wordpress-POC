@@ -1,0 +1,8 @@
+.is-selected .wp-block-areoi-carousel-item,
+.has-child-selected .wp-block-areoi-carousel-item {
+    min-height: 40px;
+    padding: 28px 15px;
+    border:  1px dashed #ddd;
+    float: none !important;
+    margin-right: 0 !important;
+}

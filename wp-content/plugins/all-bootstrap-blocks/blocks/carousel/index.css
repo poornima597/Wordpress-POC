@@ -1,0 +1,21 @@
+.wp-block-areoi-carousel {
+    min-height: 40px;
+    border:  1px dashed #ccc;
+    padding: 0 15px;
+}
+.wp-block-areoi-carousel .block-editor-block-list__layout:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.is-selected .carousel-control-next,
+.has-child-selected .carousel-control-next,
+.is-selected .carousel-control-prev,
+.has-child-selected .carousel-control-prev,
+.is-selected .carousel-indicators,
+.has-child-selected .carousel-indicators {
+    display: none !important;
+}
+.block-editor-block-list__layout.is-root-container .carousel-indicators {
+    bottom: 28px !important;
+}

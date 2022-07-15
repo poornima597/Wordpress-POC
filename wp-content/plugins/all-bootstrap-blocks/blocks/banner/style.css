@@ -1,0 +1,103 @@
+.areoi-banner-grid {
+	height: 200vh;
+}
+.areoi-banner-grid.areoi-small {
+	height: 100vh;
+}
+.areoi-banner-grid.areoi-medium {
+	height: 150vh;
+}
+.areoi-banner-grid > div {
+	height: 100%;
+}
+.areoi-banner-grid > div > .row {
+	display: grid;
+	grid-auto-rows: 1fr;
+	grid-template-columns: 1fr;
+}
+.areoi-banner-grid > div > .row > .col:first-of-type {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+  	grid-row-end: 3;
+}
+.areoi-banner-grid .areoi-banner-item {
+	height: 100%;
+	align-items: flex-end;
+}
+.areoi-banner-grid .areoi-banner-content {
+	position: relative;
+	margin: 0 auto;
+	padding-bottom: calc(2rem + var(--bs-gutter-x) * .5);
+}
+.areoi-banner-grid .areoi-banner-content :last-child  {
+	margin-bottom: 0;
+}
+
+@media only screen and ( min-width: 576px ) {
+	.areoi-banner-grid {
+		height: 100vh;
+	}
+	.areoi-banner-grid.areoi-small {
+		height: 50vh;
+	}
+	.areoi-banner-grid.areoi-medium {
+		height: 75vh;
+	}
+	.areoi-banner-grid > div > .row {
+		grid-template-columns: 1fr 1fr;
+	}
+	.areoi-banner-grid > div > .row > .col:first-of-type {
+		grid-column-end: 3;
+	}
+	.areoi-banner-grid .areoi-banner-content {
+		max-width: 540px;
+		padding: 2rem calc(var(--bs-gutter-x) * .5);
+    	margin: 0;
+	}
+}
+
+@media only screen and ( min-width: 992px ) {
+	.areoi-banner-grid > div > .row {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.areoi-banner-grid .areoi-banner-content {
+		max-width: 500px;
+		padding: calc(2rem + var(--bs-gutter-x) * .5) 2rem;
+	}
+}
+
+
+
+.areoi-banner-stacked .areoi-banner-item {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.areoi-banner-stacked.areoi-small .areoi-banner-item {
+	min-height: 50vh;
+}
+.areoi-banner-stacked.areoi-medium .areoi-banner-item {
+	min-height: 75vh;
+}
+.areoi-banner-stacked .areoi-banner-item .areoi-banner-media {
+	margin: 1rem 0;
+}
+
+
+
+.areoi-banner-carousel .areoi-banner-item {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	padding: 100px 0;
+}
+.areoi-banner-carousel.areoi-small .areoi-banner-item {
+	height: 50vh;
+}
+.areoi-banner-carousel.areoi-medium .areoi-banner-item {
+	height: 75vh;
+}
+.areoi-banner-carousel .areoi-banner-item .areoi-banner-media {
+	margin: 1rem 0;
+}

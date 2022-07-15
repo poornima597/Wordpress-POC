@@ -1,0 +1,12 @@
+.wp-block-areoi-row {
+	border:  1px dashed #ccc;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.wp-block-areoi-row > .block-editor-inner-blocks > .block-editor-block-list__layout {
+	display: flex;
+    flex-wrap: wrap;
+}
+.row > .block-editor-inner-blocks {
+    width: 100%;
+}

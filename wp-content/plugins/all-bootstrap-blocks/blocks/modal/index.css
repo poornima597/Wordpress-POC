@@ -1,0 +1,7 @@
+.wp-block-areoi-modal {
+	border:  1px dashed #ccc;
+	padding: 10px;
+	position: relative !important;
+	display: block !important;
+	z-index: 1 !important;
+}

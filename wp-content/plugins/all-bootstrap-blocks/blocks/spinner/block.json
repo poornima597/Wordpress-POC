@@ -1,0 +1,75 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/spinner",
+	"title": "Spinner",
+	"parent": null,
+	"category": "areoi-components",
+	"description": "Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "component" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+
+		"style": {
+			"type": "string",
+			"default": "spinner-border"
+		},
+		"color": {
+			"type": "string",
+			"default": "text-primary"
+		},
+		"size": {
+			"type": "string",
+			"default": null
+		},
+
+		"hide_xs": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_sm": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_md": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_lg": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xl": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xxl": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

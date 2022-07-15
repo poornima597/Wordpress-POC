@@ -1,0 +1,736 @@
+# Copyright (C) {2022} Firefly Themes
+msgid ""
+msgstr ""
+"Project-Id-Version: Caff 1.0.3\n"
+"Report-Msgid-Bugs-To: https://fireflythemes.com/support/\n"
+"POT-Creation-Date: 2022-06-22 11:54:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Firefly Themes <info@fireflythemes.com>\n"
+"Language-Team: Firefly Themes <info@fireflythemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:21 inc/custom-header.php:126
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:35
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:30
+msgid "Go to Top"
+msgstr ""
+
+#: functions.php:69 template-parts/navigation/navigation-primary.php:14
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:70
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:168
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:170
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:175
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:177 functions.php:184 functions.php:191
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: functions.php:182
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:189
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:362
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:363
+msgid "collapse child menu"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/breadcrumb.php:33
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb.php:35
+#. translators: 1: before text/html, 2: after text/html.
+msgid "%1$s Archive for %2$s"
+msgstr ""
+
+#: inc/breadcrumb.php:37
+#. translators: 1: before text/html, 2: after text/html.
+msgid "%1$sSearch results for: %2$s"
+msgstr ""
+
+#: inc/breadcrumb.php:39
+#. translators: 1: before text/html, 2: after text/html.
+msgid "%1$sPosts tagged %2$s"
+msgstr ""
+
+#: inc/breadcrumb.php:41
+#. translators: 1: before text/html, 2: after text/html.
+msgid "%1$sView all posts by %2$s"
+msgstr ""
+
+#: inc/breadcrumb.php:42
+msgid "%1$sError 404%2$s"
+msgstr ""
+
+#: inc/breadcrumb.php:63 inc/breadcrumb.php:75
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb.php:99 inc/breadcrumb.php:101 inc/breadcrumb.php:105
+#: inc/breadcrumb.php:109 inc/template-tags.php:327
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb.php:101 inc/breadcrumb.php:107
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb.php:103
+msgid "d"
+msgstr ""
+
+#: inc/breadcrumb.php:191
+#. translators: %s: current page number.
+msgid "Page %s"
+msgstr ""
+
+#: inc/custom-header.php:133 search.php:26
+#. translators: %s: search query.
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/customizer/contact-form.php:39 inc/customizer/customizer.php:63
+#: inc/customizer/featured-grid.php:41 inc/customizer/food-menu.php:56
+#: inc/customizer/hero-content.php:39 inc/customizer/slider.php:44
+#: inc/customizer/testimonial.php:40 inc/customizer/wwd.php:40
+msgid "Visible On"
+msgstr ""
+
+#: inc/customizer/contact-form.php:55 inc/customizer/featured-grid.php:111
+#: inc/customizer/hero-content.php:55 inc/customizer/slider.php:87
+#: inc/customizer/testimonial.php:111 inc/customizer/wwd.php:144
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/contact-form.php:72 inc/customizer/hero-content.php:72
+msgid "Top Subtitle"
+msgstr ""
+
+#: inc/customizer/custom-controls.php:230
+msgid "Add"
+msgstr ""
+
+#: inc/customizer/customizer.php:56
+msgid "Excluding Homepage"
+msgstr ""
+
+#: inc/customizer/customizer.php:72
+msgid "Caff Pro Available"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:57 inc/customizer/food-menu.php:94
+#: inc/customizer/testimonial.php:56 inc/customizer/wwd.php:56
+msgid "Section Top Sub-title"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:68 inc/customizer/food-menu.php:105
+#: inc/customizer/testimonial.php:67 inc/customizer/wwd.php:67
+msgid "Section Title"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:79 inc/customizer/food-menu.php:116
+#: inc/customizer/testimonial.php:78 inc/customizer/wwd.php:78
+msgid "Section Subtitle"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:89 inc/customizer/food-menu.php:126
+#: inc/customizer/slider.php:54 inc/customizer/testimonial.php:89
+#: inc/customizer/wwd.php:88
+msgid "Number"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:90 inc/customizer/food-menu.php:127
+#: inc/customizer/slider.php:55 inc/customizer/testimonial.php:90
+#: inc/customizer/wwd.php:89
+msgid "Please refresh the customizer page once the number is changed."
+msgstr ""
+
+#: inc/customizer/featured-grid.php:129 inc/customizer/food-menu.php:160
+#: inc/customizer/header-options.php:71
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:140 inc/customizer/food-menu.php:171
+#: inc/customizer/header-options.php:81
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/featured-grid.php:151 inc/customizer/food-menu.php:182
+#: inc/customizer/header-options.php:91
+msgid "Open link in new tab?"
+msgstr ""
+
+#: inc/customizer/food-menu.php:42
+msgid ""
+"Please install Jetpack Plugin for Food Menu. Also make sure Jetpack is "
+"connected."
+msgstr ""
+
+#: inc/customizer/food-menu.php:72
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/food-menu.php:83
+msgid "Overlay on image?"
+msgstr ""
+
+#: inc/customizer/food-menu.php:145
+msgid "Pick Nova Menu Sections"
+msgstr ""
+
+#: inc/customizer/food-menu.php:150 inc/customizer/theme-options.php:222
+msgid "--Select--"
+msgstr ""
+
+#: inc/customizer/header-options.php:21
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/header-options.php:31
+#: template-parts/header/quick-contact.php:22
+msgid "Email"
+msgstr ""
+
+#: inc/customizer/header-options.php:41
+#: template-parts/header/quick-contact.php:18
+msgid "Phone"
+msgstr ""
+
+#: inc/customizer/header-options.php:51
+#: template-parts/header/quick-contact.php:26
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/header-options.php:61
+#: template-parts/header/quick-contact.php:30
+msgid "Open Hours"
+msgstr ""
+
+#: inc/customizer/reset.php:43
+msgid "Reset"
+msgstr ""
+
+#: inc/customizer/reset.php:44
+msgid "Caution! This action is irreversible. Press OK to continue."
+msgstr ""
+
+#: inc/customizer/reset.php:48
+msgid "Reset Section"
+msgstr ""
+
+#: inc/customizer/reset.php:49
+msgid "Caution! This action is irreversible. Press OK to reset the section."
+msgstr ""
+
+#: inc/customizer/sections.php:15
+msgid "Sections"
+msgstr ""
+
+#: inc/customizer/sections.php:62
+msgid "Section layout"
+msgstr ""
+
+#: inc/customizer/sections.php:75
+msgid "Slider"
+msgstr ""
+
+#: inc/customizer/sections.php:76
+msgid "What We Do"
+msgstr ""
+
+#: inc/customizer/sections.php:77
+msgid "Hero Content"
+msgstr ""
+
+#: inc/customizer/sections.php:78
+msgid "Featured Grid"
+msgstr ""
+
+#: inc/customizer/sections.php:79
+msgid "Food Menu"
+msgstr ""
+
+#: inc/customizer/sections.php:80
+msgid "Testimonials"
+msgstr ""
+
+#: inc/customizer/sections.php:81
+msgid "Contact Form"
+msgstr ""
+
+#: inc/customizer/slider.php:76 inc/customizer/wwd.php:123
+msgid "Item #"
+msgstr ""
+
+#: inc/customizer/slider.php:105
+msgid "Autoplay"
+msgstr ""
+
+#: inc/customizer/slider.php:116
+msgid "Autoplay Delay"
+msgstr ""
+
+#: inc/customizer/slider.php:117
+msgid "(in ms)"
+msgstr ""
+
+#: inc/customizer/slider.php:131
+msgid "Pause On Hover"
+msgstr ""
+
+#: inc/customizer/slider.php:142
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/slider.php:153
+msgid "Pagination"
+msgstr ""
+
+#: inc/customizer/theme-options.php:49
+msgid "Continue reading"
+msgstr ""
+
+#: inc/customizer/theme-options.php:53 inc/customizer/theme-options.php:55
+msgid "Caff by"
+msgstr ""
+
+#: inc/customizer/theme-options.php:62
+msgid "Search..."
+msgstr ""
+
+#: inc/customizer/theme-options.php:80
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:92
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/theme-options.php:103 inc/customizer/wwd.php:107
+#: inc/theme-about.php:45
+msgid "Info"
+msgstr ""
+
+#: inc/customizer/theme-options.php:104
+msgid ""
+"Since Breadcrumb NavXT Plugin is installed, edit plugin's settings "
+"%1$shere%2$s"
+msgstr ""
+
+#: inc/customizer/theme-options.php:117
+msgid "Display Breadcrumb?"
+msgstr ""
+
+#: inc/customizer/theme-options.php:127
+msgid "Show on homepage?"
+msgstr ""
+
+#: inc/customizer/theme-options.php:140
+msgid "Layouts"
+msgstr ""
+
+#: inc/customizer/theme-options.php:150
+msgid "Default Layout"
+msgstr ""
+
+#: inc/customizer/theme-options.php:153 inc/customizer/theme-options.php:167
+msgid "Right Sidebar"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "No Sidebar: Full Width"
+msgstr ""
+
+#: inc/customizer/theme-options.php:164
+msgid "Homepage/Archive Layout"
+msgstr ""
+
+#: inc/customizer/theme-options.php:181
+msgid "Excerpt Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:191
+msgid "Excerpt Length (Words)"
+msgstr ""
+
+#: inc/customizer/theme-options.php:201
+msgid "Excerpt More Text"
+msgstr ""
+
+#: inc/customizer/theme-options.php:216
+msgid "Filter Homepage/Blog page posts by following categories"
+msgstr ""
+
+#: inc/customizer/theme-options.php:217
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/theme-options.php:231
+msgid "Show Home Content/Blog"
+msgstr ""
+
+#: inc/customizer/theme-options.php:244
+#: template-parts/header/header-search.php:9
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/theme-options.php:253
+msgid "Search Text"
+msgstr ""
+
+#: inc/customizer/utilities.php:107
+#. translators: 1: Post ID.
+msgid "ID: %s No Title"
+msgstr ""
+
+#: inc/customizer/utilities.php:123
+msgid "Disabled"
+msgstr ""
+
+#: inc/customizer/utilities.php:124
+msgid "Homepage / Frontpage"
+msgstr ""
+
+#: inc/customizer/utilities.php:125
+msgid "Entire Site"
+msgstr ""
+
+#: inc/customizer/wwd.php:109
+#. translators: 1: Link Start html, 2: Link end html.
+msgid ""
+"If you want camera icon, save \"fas fa-camera\". For more classes, check "
+"%1$sthis%2$s"
+msgstr ""
+
+#: inc/customizer/wwd.php:133
+msgid "Icon Class"
+msgstr ""
+
+#: inc/template-functions.php:223
+#. translators: %s: Name of current post
+msgid "Scroll Up"
+msgstr ""
+
+#: inc/template-tags.php:75
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:83
+#. translators: 1: list of categories.
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:104
+#. translators: 1: list of tags.
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:141
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:158
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:247
+#. translators: 1: before html, 2: after html, 3: list of categories.
+msgid "%1$sPosted in%2$s %3$s"
+msgstr ""
+
+#: inc/template-tags.php:284
+msgid "No Reviews"
+msgstr ""
+
+#: inc/template-tags.php:284
+msgid "1 Review"
+msgstr ""
+
+#: inc/template-tags.php:284
+msgid "% Reviews"
+msgstr ""
+
+#: inc/template-tags.php:284
+msgid "Reviews are off for this product"
+msgstr ""
+
+#: inc/template-tags.php:327
+msgid ""
+"\r\n"
+"\t\tCaff by"
+msgstr ""
+
+#: inc/theme-about.php:19
+msgid "About Theme"
+msgstr ""
+
+#: inc/theme-about.php:47
+msgid "Documentation"
+msgstr ""
+
+#: inc/theme-about.php:49
+msgid "Demo"
+msgstr ""
+
+#: inc/theme-about.php:51
+msgid "Support"
+msgstr ""
+
+#: inc/theme-about.php:61
+msgid "Secondary menu"
+msgstr ""
+
+#: inc/theme-about.php:62
+msgid "About"
+msgstr ""
+
+#: inc/theme-about.php:64
+msgid "Changelog"
+msgstr ""
+
+#: inc/theme-about.php:72
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/theme-about.php:72
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/theme-about.php:75
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/theme-about.php:75
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/theme-about.php:89
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/theme-about.php:90
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/theme-about.php:91
+msgid "Customize"
+msgstr ""
+
+#: inc/theme-about.php:95
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/theme-about.php:96
+msgid ""
+"Get genuine support from genuine people. Whether it's customization or "
+"compatibility, our seasoned developers deliver tailored solutions to your "
+"queries."
+msgstr ""
+
+#: inc/theme-about.php:97
+msgid "Support Forum"
+msgstr ""
+
+#: single.php:23
+msgid "Previous"
+msgstr ""
+
+#: single.php:24
+msgid "Next"
+msgstr ""
+
+#: template-parts/content/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content/content-none.php:24
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content/content-page.php:31
+#: template-parts/content/content-single.php:46
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content/content-single.php:35
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/header/header-one.php:21
+msgid "Top Bar"
+msgstr ""
+
+#: template-parts/header/header-one.php:34
+#: template-parts/header/header-one.php:65
+msgid "Social Links Menu"
+msgstr ""
+
+#: template-parts/header/header-one.php:117
+msgid "Call Us"
+msgstr ""
+
+#: template-parts/navigation/navigation-primary.php:10
+msgid "Menu"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Caff"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://fireflythemes.com/themes/caff/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Caff is a free restaurant or hotel centric WordPress theme by Firefly "
+"themes. If you are into hotel/restaurant business looking to make a website "
+"then Caff is your ultimate destination. It offers you modern elegant fresh "
+"design which is specially designed for hotel or restaurant business. "
+"Nowadays online presence of café/restaurant has become very crucial, it "
+"determines the growth of your business and wider range of customers can "
+"connect with you easily. Caff has features like Food Menu, Slider, Hero "
+"content, Contact Form, Featured grid, Testimonial and so on. You can create "
+"an elegant looking website in no time with the highly customizable features "
+"provided by Caff. Caff is fully responsive, built with optimized and secure "
+"codes. It also comes with multiple demos which will help to build you "
+"website by importing content easily. Visit "
+"https://fireflythemes.com/support for support, "
+"https://fireflythemes.com/documentation/caff for theme documentation and "
+"https://demo.fireflythemes.com/caff for demo."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "FireFly Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://fireflythemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Menu Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Right Sidebar ( Content, Primary Sidebar )"
+msgstr ""
+
+#: comments.php:41
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:255
+#. Translators: If there are characters in your language that are not supported
+#. by Heebo, translate this to 'off'. Do not translate into your own language.
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:256
+msgctxt "Great Vibes font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:257
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/customizer/theme-options.php:53 inc/customizer/theme-options.php:54
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s"
+msgstr ""
+
+#: inc/template-tags.php:327
+msgctxt "1: Year, 2: Site Title with home URL, 3: Privacy Policy Link"
+msgid "Copyright &copy; %1$s %2$s %3$s"
+msgstr ""
+
+#: inc/template-tags.php:100
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: searchform.php:13
+msgctxt "label"
+msgid "Search for:"
+msgstr ""

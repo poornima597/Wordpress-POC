@@ -1,0 +1,8 @@
+.alert .icon {
+    width: 24px;
+    height: auto;
+    display: block;
+}
+.alert :last-child {
+    margin-bottom: 0 !important;
+}

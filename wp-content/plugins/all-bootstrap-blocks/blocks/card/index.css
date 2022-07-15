@@ -1,0 +1,7 @@
+.wp-block-areoi-card {
+	padding: 0;
+}
+.wp-block-areoi-card.is-selected,
+.has-child-selected.wp-block-areoi-card {
+	padding: 28px 15px;
+}

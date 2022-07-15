@@ -1,0 +1,6 @@
+.list-group-item {
+    margin: 0 !important;
+}
+.list-group-item :last-child {
+    margin-bottom: 0 !important;
+}

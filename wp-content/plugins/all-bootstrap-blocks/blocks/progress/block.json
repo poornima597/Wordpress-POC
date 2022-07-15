@@ -1,0 +1,328 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/progress",
+	"title": "Progress",
+	"parent": null,
+	"category": "areoi-components",
+	"description": "Progress components are built with two HTML elements, some CSS to set the width, and a few attributes. We don’t use the HTML5 <progress> element, ensuring you can stack progress bars, animate them, and place text labels over them.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "component" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+
+		"width": {
+			"type": "string",
+			"default": "50"
+		},
+		"label": {
+			"type": "boolean",
+			"default": false
+		},
+		"background": {
+			"type": "string",
+			"default": "bg-primary"
+		},
+		"striped": {
+			"type": "boolean",
+			"default": false
+		},
+		"animated": {
+			"type": "boolean",
+			"default": false
+		},
+
+		"height_dimension_xs": {
+			"type": "string",
+			"default": null
+		},
+		"height_unit_xs": {
+			"type": "string",
+			"default": "px"
+		},
+		"padding_top_xs": {
+			"type": "string",
+			"default": null
+		},
+		"padding_right_xs": {
+			"type": "string",
+			"default": null
+		},
+		"padding_bottom_xs": {
+			"type": "string",
+			"default": null
+		},
+		"padding_left_xs": {
+			"type": "string",
+			"default": null
+		},
+		"margin_top_xs": {
+			"type": "string",
+			"default": null
+		},
+		"margin_right_xs": {
+			"type": "string",
+			"default": null
+		},
+		"margin_bottom_xs": {
+			"type": "string",
+			"default": null
+		},
+		"margin_left_xs": {
+			"type": "string",
+			"default": null
+		},
+		"hide_xs": {
+			"type": "boolean",
+			"default": false
+		},
+		
+		"height_dimension_sm": {
+			"type": "string",
+			"default": null
+		},
+		"height_unit_sm": {
+			"type": "string",
+			"default": "px"
+		},
+		"padding_top_sm": {
+			"type": "string",
+			"default": null
+		},
+		"padding_right_sm": {
+			"type": "string",
+			"default": null
+		},
+		"padding_bottom_sm": {
+			"type": "string",
+			"default": null
+		},
+		"padding_left_sm": {
+			"type": "string",
+			"default": null
+		},
+		"margin_top_sm": {
+			"type": "string",
+			"default": null
+		},
+		"margin_right_sm": {
+			"type": "string",
+			"default": null
+		},
+		"margin_bottom_sm": {
+			"type": "string",
+			"default": null
+		},
+		"margin_left_sm": {
+			"type": "string",
+			"default": null
+		},
+		"hide_sm": {
+			"type": "boolean",
+			"default": false
+		},
+		
+		"height_dimension_md": {
+			"type": "string",
+			"default": null
+		},
+		"height_unit_md": {
+			"type": "string",
+			"default": "px"
+		},
+		"padding_top_md": {
+			"type": "string",
+			"default": null
+		},
+		"padding_right_md": {
+			"type": "string",
+			"default": null
+		},
+		"padding_bottom_md": {
+			"type": "string",
+			"default": null
+		},
+		"padding_left_md": {
+			"type": "string",
+			"default": null
+		},
+		"margin_top_md": {
+			"type": "string",
+			"default": null
+		},
+		"margin_right_md": {
+			"type": "string",
+			"default": null
+		},
+		"margin_bottom_md": {
+			"type": "string",
+			"default": null
+		},
+		"margin_left_md": {
+			"type": "string",
+			"default": null
+		},
+		"hide_md": {
+			"type": "boolean",
+			"default": false
+		},
+
+		"height_dimension_lg": {
+			"type": "string",
+			"default": null
+		},
+		"height_unit_lg": {
+			"type": "string",
+			"default": "px"
+		},
+		"padding_top_lg": {
+			"type": "string",
+			"default": null
+		},
+		"padding_right_lg": {
+			"type": "string",
+			"default": null
+		},
+		"padding_bottom_lg": {
+			"type": "string",
+			"default": null
+		},
+		"padding_left_lg": {
+			"type": "string",
+			"default": null
+		},
+		"margin_top_lg": {
+			"type": "string",
+			"default": null
+		},
+		"margin_right_lg": {
+			"type": "string",
+			"default": null
+		},
+		"margin_bottom_lg": {
+			"type": "string",
+			"default": null
+		},
+		"margin_left_lg": {
+			"type": "string",
+			"default": null
+		},
+		"hide_lg": {
+			"type": "boolean",
+			"default": false
+		},
+
+		"height_dimension_xl": {
+			"type": "string",
+			"default": null
+		},
+		"height_unit_xl": {
+			"type": "string",
+			"default": "px"
+		},
+		"padding_top_xl": {
+			"type": "string",
+			"default": null
+		},
+		"padding_right_xl": {
+			"type": "string",
+			"default": null
+		},
+		"padding_bottom_xl": {
+			"type": "string",
+			"default": null
+		},
+		"padding_left_xl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_top_xl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_right_xl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_bottom_xl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_left_xl": {
+			"type": "string",
+			"default": null
+		},
+		"hide_xl": {
+			"type": "boolean",
+			"default": false
+		},
+
+		"height_dimension_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"height_unit_xxl": {
+			"type": "string",
+			"default": "px"
+		},
+		"padding_top_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"padding_right_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"padding_bottom_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"padding_left_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_top_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_right_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_bottom_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"margin_left_xxl": {
+			"type": "string",
+			"default": null
+		},
+		"hide_xxl": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

@@ -1,0 +1,24 @@
+@import url('../../src/bootstrap-icons-1.8.1/bootstrap-icons.css');
+
+.wp-block-areoi-button {
+	position: relative;
+	margin: 0 !important;
+	display: inline-block;
+}
+.wp-block-areoi-button .btn .rich-text {
+	display: inline;
+}
+.wp-block-areoi-button .badge {
+	margin: 0 5px;
+}
+.is-selected > .dropdown > .dropdown-menu,
+.has-child-selected > .dropdown > .dropdown-menu,
+.is-selected > .dropup > .dropdown-menu,
+.has-child-selected > .dropup > .dropdown-menu,
+.is-selected > .dropstart > .dropdown-menu,
+.has-child-selected > .dropstart > .dropdown-menu,
+.is-selected > .dropend > .dropdown-menu,
+.has-child-selected > .dropend > .dropdown-menu {
+	display: block !important;
+	z-index: 10 !important;
+}

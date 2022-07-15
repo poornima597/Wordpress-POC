@@ -1,0 +1,69 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/dropdown-item",
+	"title": "Dropdown Item",
+	"parent": [ "areoi/button" ],
+	"category": "areoi-components",
+	"description": "Add as many dropdown items to a dropdown as you would like. Add an <a> tag with a Link. Add a header to label sections of actions in any dropdown menu. Separate groups of related menu items with a divider. Place any freeform text within a dropdown menu with text.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+		"type": {
+			"type": "string",
+			"default": "dropdown-item"
+		},
+		"active": {
+			"type": "boolean",
+			"default": false
+		},
+		"disabled": {
+			"type": "boolean",
+			"default": false
+		},
+		"url": {
+			"type": "string",
+			"default": null
+		},
+		"title": {
+			"type": "string",
+			"default": null
+		},
+		"text": {
+			"type": "string",
+			"default": null
+		},
+		"linkTarget": {
+			"type": "string",
+			"default": null
+		},
+		"rel": {
+			"type": "string",
+			"default": null
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

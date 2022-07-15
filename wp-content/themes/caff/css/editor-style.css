@@ -1,0 +1,281 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	font-size: 16px;
+}
+body, button, input, select, optgroup, textarea {
+    color: #797978;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+@media screen and (max-width: 900px) {
+	html {
+	    font-size: 54.6879%;
+	}
+}
+body {
+    line-height: 1.7;
+    color: #797978;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    margin-top: 0;
+    color: #222;
+    font-weight: 500;
+}
+
+h1 {
+    font-size:38px;
+}
+
+h2 {
+   font-size: 28px;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size:16px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size:14px;
+    font-weight: 500;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+blockquote,
+q {
+    quotes: "" "";
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 15px;
+}
+
+ul,
+ol {
+    margin: 0 0 15px 20px;
+}
+
+ul {
+    list-style: disc;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 15px 15px;
+}
+
+img {
+    height: auto; /* Make sure images are scaled correctly. */
+    max-width: 100%; /* Adhere to container width. */
+    vertical-align: middle;
+}
+
+figure {
+    margin: 1em 0; /* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+    margin: 0 0 15px;
+    width: 100%;
+}
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+a {
+    color:#3368c6;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: #3368c6;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #000;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+    color: #000000;
+    text-decoration: inherit;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover,
+h1 a:focus,
+h2 a:focus,
+h3 a:focus,
+h4 a:focus,
+h5 a:focus,
+h6 a:hover,
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active{
+    color: #3368c6;
+}
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right:50px;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text-alignleft {
+	text-align: left;
+}
+
+.text-alignright {
+	text-align: right;
+}
+
+.text-aligncenter {
+	text-align: center;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 50px;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 50px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}

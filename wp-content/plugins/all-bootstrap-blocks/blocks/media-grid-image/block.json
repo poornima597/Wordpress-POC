@@ -1,0 +1,126 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "areoi/media-grid-image",
+	"title": "Image",
+	"category": "areoi-components",
+	"parent": [ "areoi/media-grid" ],
+	"usesContext": [ "allowResize", "imageCrop", "fixedHeight" ],
+	"description": "Insert an image to make a visual statement.",
+	"keywords": [ "img", "photo", "picture" ],
+	"textdomain": "default",
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+		"parent_id": {
+			"type": "string",
+			"default": null
+		},
+		"align": {
+			"type": "string"
+		},
+		"media_fit": {
+			"type": "string",
+			"default": "cover"
+		},
+		"media_height": {
+			"type": "string",
+			"default": "50"
+		},
+		"media_width": {
+			"type": "string",
+			"default": "100"
+		},
+		"media_align": {
+			"type": "string",
+			"default": "center"
+		},
+		"url": {
+			"type": "string"
+		},
+		"alt": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "alt",
+			"default": ""
+		},
+		"caption": {
+			"type": "string",
+			"source": "html",
+			"selector": "figcaption"
+		},
+		"title": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "img",
+			"attribute": "title"
+		},
+		"href": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "figure > a",
+			"attribute": "href"
+		},
+		"rel": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "figure > a",
+			"attribute": "rel"
+		},
+		"linkClass": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "figure > a",
+			"attribute": "class"
+		},
+		"id": {
+			"type": "number"
+		},
+		"width": {
+			"type": "number"
+		},
+		"height": {
+			"type": "number"
+		},
+		"sizeSlug": {
+			"type": "string"
+		},
+		"linkDestination": {
+			"type": "string"
+		},
+		"linkTarget": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "figure > a",
+			"attribute": "target"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"color": {
+			"__experimentalDuotone": "img",
+			"text": false,
+			"background": false
+		},
+		"__experimentalBorder": {
+			"radius": true,
+			"__experimentalDefaultControls": {
+				"radius": true
+			}
+		}
+	},
+	"editorStyle": "wp-block-image-editor",
+	"style": "wp-block-image"
+}

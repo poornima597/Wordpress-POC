@@ -1,0 +1,53 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/toast",
+	"title": "Toast",
+	"category": "areoi-components",
+	"description": "Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+
+		"placement": {
+			"type": "string",
+			"default": "bottom-0 end-0"
+		},
+		"background": {
+			"type": "string",
+			"default": null
+		},
+		"text_color": {
+			"type": "string",
+			"default": null
+		},
+		"border_color": {
+			"type": "string",
+			"default": null
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

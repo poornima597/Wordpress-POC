@@ -1,0 +1,49 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/offcanvas",
+	"title": "Offcanvas",
+	"category": "areoi-components",
+	"description": "Build hidden sidebars into your project for navigation, shopping carts, and more with a few classes and our JavaScript plugin.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+
+		"backdrop": {
+			"type": "string",
+			"default": null
+		},
+		"scrollable": {
+			"type": "string",
+			"default": null
+		},
+		"placement": {
+			"type": "string",
+			"default": "offcanvas-start"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

@@ -1,0 +1,318 @@
+/*
+Theme Name: Caff
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: auto;
+	margin-left: 0.4375em;
+}
+
+
+blockquote {
+	border-left: 0;
+	border-right: 5px solid;
+}
+
+
+ul,
+ol {
+	margin: 0 1.5em 1.5em 0;
+	padding: 0;
+}
+
+li > ul,
+li > ol {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+.entry-meta span a:before {
+	margin-left: 7px;
+    margin-right: 0;
+}
+
+input[type="search"].search-field {
+	padding-left: 41px;
+	padding-right: 21px;
+}
+
+.search-submit {
+	left: 0;
+	right: auto;
+}
+
+.site-navigation ul ul {
+	margin-left: 0;
+}
+
+.dropdown-toggle {
+	left: 0;
+	right: auto;
+}
+
+.main-navigation ul ul {
+	left: inherit;
+    right: 0;
+
+}
+.site-navigation li:hover > ul, .site-navigation li.focus > ul {
+    left: inherit;
+    right: 0;
+}
+
+
+.widget ul,
+.widget ol {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.comment-list .children > li {
+	padding-right: 0.875em;
+	padding-left: 0;
+}
+
+.comment-author .avatar {
+	float: right;
+	margin-right: auto;
+	margin-left: 0.875em;
+}
+
+.bypostauthor > article .fn:after {
+	left: auto;
+	right: 3px;
+}
+
+.comment-content ul,
+.comment-content ol {
+	margin: 0 1.25em 1.5em 0;
+}
+
+.comment-reply-title small a {
+	float: left;
+}
+
+
+.site-branding {
+    float: right;
+}
+
+.pull-left {
+    float: right;
+}
+.pull-right {
+    float: left;
+}
+
+.cart-contents {
+    border-left: none;
+    border-right: 1px solid #ddd;
+    margin-left: 0;
+    padding-right: 20px;
+}
+a.ff-button.header-button {
+    margin: 0 30px 0 0;
+}
+.site-navigation ul ul li:hover > ul, .site-navigation ul ul li.focus > ul {
+    left: auto;
+    right: 100%;
+}
+.main-navigation ul ul .menu-item-has-children > a:after, .main-navigation li.page-item-has-children > a:after {
+    left: 20px;
+    top: 17px;
+    right: inherit;
+}
+
+
+.post-navigation .nav-previous {
+	text-align: right;
+}
+
+.post-navigation .nav-next {
+	text-align: left;
+}
+
+
+.site-navigation li:hover > ul,
+.site-navigation li.focus > ul {
+    left: 0;
+    right: auto;
+}
+
+.site-navigation ul ul {
+	right: -999em;
+}
+
+.site-navigation .primary-menu ul,
+.site-navigation .footer-menu ul {
+	text-align: right;
+}
+
+
+
+.site-navigation .menu-item-has-children > a:after,
+.site-navigation .page_item_has_children > a:after {
+	padding-left: 0;
+	padding-right: 7px;
+}
+
+
+
+.site-branding {
+	text-align: right;
+}
+
+
+#quick-contact li:before {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+#search-container {
+    left: -10px;
+    right: inherit;
+}
+#search-container:after {
+    left: 30px;
+    right: inherit;
+}
+.main-navigation ul ul .menu-item-has-children > a:hover:after, .main-navigation ul ul .menu-item-has-children > a:focus:after, .main-navigation ul ul .menu-item-has-children > a:active:after, .main-navigation ul ul .menu-item-has-children:hover > a:after {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.more-link:before {
+    content: "\f30a";
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 2;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+}
+.more-link:after {
+	display: none;
+}
+#hero-content-section.text-alignleft .section-title-wrap, #hero-content-section.default .section-title-wrap {
+    text-align: right;
+}
+#hero-content-section.text-alignleft .section-title-wrap span.divider, #hero-content-section.default .section-title-wrap span.divider {
+    left: 0;
+    float: right;
+}
+.featured-page-section ul li:before {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.featured-page-section ul {
+    margin: 0 0 15px;
+    padding: 0;
+}
+.section-portfolio .item-inner-wrapper .portfolio-content {
+	text-align: right;
+}
+.entry-meta > span::before, .entry-meta > span::before {
+    float: right;
+    margin: 0 0 0 10px;
+}
+.section .section-title-wrap.text-alignleft {
+    text-align: right;
+}
+.footer-widget-area .widget-title:after {
+    right: 0;
+}
+.footer-widget-area ul li::before {
+    right: 0;
+    content: "\f104";
+    left:inherit;
+}
+.footer-widget-area ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+a.scrollup, a.scrollup:visited {
+    left: 20px;
+    right: inherit;
+}
+.section-testimonial .testimonial-thumb img {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.client-info-wrap {
+    float: right;
+}
+.section-latest-posts .new-cat {
+    left: inherit;
+    right: 30px;
+}
+.entry-meta .byline .author.vcard {
+    margin-left: 0;
+}
+.entry-meta > span, .entry-meta > span:first-child {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.sidebar ul li::before {
+    margin: 0;
+    margin-left: 10px;
+    content: "\f30a";
+}
+.sidebar .widget-title:after {
+    right: 0;
+}
+.cart-contents .site-header-cart:hover .widget_shopping_cart, .cart-contents .site-header-cart.focus .widget_shopping_cart {
+    left: inherit;
+    left: -20px;
+    right: inherit;
+}
+.cart-contents .site-header-cart .widget_shopping_cart:after {
+    left: 20px;
+    right: inherit;
+}
+.cart-contents .woocommerce a.remove {
+    margin: 0;
+}
+.swiper-carousel-enabled .swiper-button-prev {
+	right: inherit;
+	left: -5%;
+}
+.swiper-carousel-enabled:hover .swiper-button-next {
+	left: inherit;
+	right: -5%;
+}
+.swiper-carousel-enabled:hover .swiper-button-next {
+    right: 5%;
+    visibility: visible;
+    left: inherit;
+}
+
+.swiper-carousel-enabled:hover .swiper-button-prev {
+    left: 5%;
+    visibility: visible;
+    right: inherit;
+}
+.header-seven .site-branding {
+    float: right;
+    padding: 30px 379px 45px 0;
+    margin-left: inherit;
+    margin-right: -379px;
+}
+.header-seven .site-branding:after {
+    border-bottom: 135px solid transparent;
+    border-right: 60px solid #3368c6;
+    border-left: inherit;
+}

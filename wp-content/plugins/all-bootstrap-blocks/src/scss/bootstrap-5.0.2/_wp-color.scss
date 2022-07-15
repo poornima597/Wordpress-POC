@@ -1,0 +1,8 @@
+@each $color, $value in $theme-colors {
+  .has-#{$color}-color {
+    color: var(--#{$variable-prefix}#{$color});
+  }
+  .has-#{$color}-background-color {
+    background-color: var(--#{$variable-prefix}#{$color});
+  }
+}

@@ -1,0 +1,121 @@
+.areoi-element {
+	position: relative;
+
+	& > * {
+		position: relative;
+	}
+	& > .modal, 
+	& > .offcanvas, 
+	& > .toast,
+	& > .modal-backdrop {
+		position: fixed;
+	}
+	.wp-block-image {
+		img {
+			height: auto;
+		}
+	}
+}
+
+.areoi-background {
+	overflow: hidden;
+
+	div {
+		height: 100%;
+	}
+	&__image {
+		background-size: cover;
+		background-position: center;
+	}
+	.col {
+		overflow: hidden;
+		position: relative;
+	}
+	img,
+	video {
+		width: auto;
+		height: auto;
+		min-width: 100%;
+		min-height: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate( -50%, -50% );
+		object-fit: cover;
+	}
+}
+.areoi-background,
+.areoi-background__image,
+.areoi-background__color,
+.areoi-background__overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.alert,
+.list-group-item {
+	.icon {
+		width: 24px;
+		height: auto;
+		display: block;
+	}
+	:last-child {
+		margin-bottom: 0;
+	}
+}
+.carousel {
+	width: 100%;
+	overflow: hidden;
+}
+.popover-container {
+	display: inline-block;
+}
+.btn-group div:not(:last-child) .btn {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.btn-group div:not(:first-child) .btn {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    margin-left: -1px;
+}
+
+.btn-group-vertical div:not(:last-child) .btn {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.btn-group-vertical div:not(:first-child) .btn {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+.card .wp-block-image {
+	margin-bottom: 0;
+}
+.card-header :last-child,
+.card-footer :last-child,
+.card-body :last-child,
+.modal-header .modal-header-content :last-child,
+.offcanvas-header .offcanvas-header-content :last-child,
+.toast-header .toast-header-content :last-child,
+.toast-body :last-child {
+	margin: 0;
+}
+.modal {
+	width:  100% !important;
+	max-width: 100% !important;
+}
+.areoi-full-link {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wp-block-separator {
+	border-top: none !important;
+	border-bottom: none !important;
+}

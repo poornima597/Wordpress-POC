@@ -1,0 +1,14 @@
+.card-body {
+	min-height: 28px;
+	margin:  0 !important;
+}
+.card-body :last-child {
+	margin: 0 !important;
+}
+.card > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block {
+	margin: 0 !important;
+}
+.card.is-selected .card-img-overlay,
+.card.has-child-selected .card-img-overlay {
+	position: relative !important;
+}

@@ -1,0 +1,15 @@
+.areoi-content-with-media {
+    display: flex;
+    align-items: stretch;
+    padding: 20px 0;
+    border:  1px dashed #ddd;
+}
+.block-editor-block-list__layout.is-root-container .areoi-content-with-media > div > .container > .row {
+    display: flex !important;
+}
+.areoi-content-with-media-content {
+    min-height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px dashed #ddd;
+}

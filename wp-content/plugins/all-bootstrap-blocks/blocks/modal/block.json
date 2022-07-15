@@ -1,0 +1,53 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/modal",
+	"title": "Modal",
+	"category": "areoi-components",
+	"description": "Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+
+		"backdrop": {
+			"type": "string",
+			"default": null
+		},
+		"scrollable": {
+			"type": "string",
+			"default": null
+		},
+		"centered": {
+			"type": "string",
+			"default": null
+		},
+		"size": {
+			"type": "string",
+			"default": null
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

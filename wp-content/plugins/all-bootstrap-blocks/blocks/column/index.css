@@ -1,0 +1,16 @@
+.wp-block-areoi-column {
+	min-height: 40px;
+	border:  1px dashed #ccc;
+}
+.wp-block-areoi-column {
+    min-height: 40px;
+    border:  1px dashed #ccc;
+}
+.col {
+    position: relative;
+}
+.col:not([class^='offset']),
+.col:not([class*='offset']) {
+    margin-left: 0;
+    margin-right: 0;
+}

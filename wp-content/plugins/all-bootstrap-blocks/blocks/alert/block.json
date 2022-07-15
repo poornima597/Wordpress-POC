@@ -1,0 +1,74 @@
+{
+	"apiVersion": 2,
+	"name": "areoi/alert",
+	"title": "Alert",
+	"parent": null,
+	"category": "areoi-components",
+	"description": "Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.",
+	"textdomain": "default",
+	"keywords": [ "areoi", "bootstrap", "layout" ],
+	"example": {
+		"attributes": {
+			"preview": true
+		}
+	},
+	"attributes": {
+		"preview": {
+			"type": "boolean",
+			"default": false
+		},
+		"anchor": {
+			"type": "string",
+			"default": false
+		},
+		"block_id": {
+			"type": "string",
+			"default": null
+		},
+		"style": {
+			"type": "string",
+			"default": "alert-primary"
+		},
+		"close": {
+			"type": "boolean",
+			"default": false
+		},
+		"icon": {
+			"type": "object",
+			"default": false
+		},
+
+		"hide_xs": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_sm": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_md": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_lg": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xl": {
+			"type": "boolean",
+			"default": false
+		},
+		"hide_xxl": {
+			"type": "boolean",
+			"default": false
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"align": false,
+		"html": false
+	},
+	"editorScript": "areoi-blocks",
+    "editorStyle": "file:./index.css",
+    "style": "file:../../build/style.css"
+}

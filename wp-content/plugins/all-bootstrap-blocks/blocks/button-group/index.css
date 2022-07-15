@@ -1,0 +1,48 @@
+.wp-block-areoi-button-group {
+    border:  1px dashed #ccc;
+    min-height: 28px;
+    padding: 28px 0 !important;
+}
+.wp-block-areoi-button-group.btn-group-vertical {
+    padding: 28px 0;
+}
+.wp-block-areoi-button-group.btn-group .wp-block-areoi-button {
+    display: inline-block;
+}
+
+/* Horizontal */
+.btn-group > .block-editor-inner-blocks > .block-editor-block-list__layout > .btn,
+.btn-group > .block-editor-inner-blocks > .block-editor-block-list__layout > .btn-group {
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.btn-group > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:not(:last-of-type):not(.dropdown-toggle) .btn {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.btn-group > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:not(:first-of-type) .btn {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    margin-left: -1px;
+}
+
+/* Vertical */
+.btn-group-vertical > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.btn-group-vertical > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:not(:last-child):not(.dropdown-toggle) .btn {
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.btn-group-vertical > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block:not(:first-child):not(.dropdown-toggle) .btn {
+    border-top-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+}
+.btn-group-vertical > .block-editor-inner-blocks > .block-editor-block-list__layout > .wp-block .btn {
+    width: 100%;
+    margin: 0;
+}
