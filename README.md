@@ -253,5 +253,5 @@ jQuery(document).ready(function(){
 
 
 
-## Step 6 - Sending Mail
+## Step 6 - Send Mail
 Now you can send mail by using the frontend form.
