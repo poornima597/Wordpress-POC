@@ -1,5 +1,5 @@
 # Writing a WordPress Custom SMTP and Custom Email
-The simplest method to do this is to add it to a fresh custom SMTP with a unique email design. Download and Install wordpress and start doing this.
+The simplest method to do this is to add it to a fresh custom SMTP with a unique email design. Download and install wordpress and start doing this.
 
 ## Step 1 - Configuration
 
@@ -120,7 +120,8 @@ Create Contact.php file and paste it below code. The below given is contact form
 
 function mailtest_code(){   
  ?>
-
+```
+```html
 <div class="contactpage-form" id="contactform1">
     <form method="post"  class=""  data-status="init" > 
         <div id="displayform" class="alert alert-info" style="display:none"> </div>       
@@ -164,12 +165,14 @@ function mailtest_code(){
         <button type="button" name="submitinvest" class="" id="contact_submit">Submit</button>        
     </form>
 </div> 
+```
+```php
 <?php
 }
 ?>
 
 </pre>
-```php
+```
 
 ## Step 4 - Creating one page in WP-Admin
 Creating the contact us page in the wp-admin and paste the shortcode given below. Give the Contact page link to the Contact Menu.
