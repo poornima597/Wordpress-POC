@@ -113,11 +113,12 @@ function siteWideMessage() {
 ## Step 3 - Creating new template page
 Create Contact.php file and paste it below code. The below given is contact form which is used to show in frontend.
 <pre>
-//<?php 
-/* Template Name: Contact Form */ 
+```php
+<?php 
+// /* Template Name: Contact Form */ 
 
 function mailtest_code(){   
-// ?>
+ ?>
 
 <div class="contactpage-form" id="contactform1">
     <form method="post"  class=""  data-status="init" > 
@@ -162,13 +163,13 @@ function mailtest_code(){
         <button type="button" name="submitinvest" class="" id="contact_submit">Submit</button>        
     </form>
 </div> 
-//<?php
-//}
-//?>
+<?php
+}
+?>
 
 </pre>
 
-
+```php
 
 ## Step 4 - Creating one page in WP-Admin
 Creating the contact us page in the wp-admin and paste the shortcode given below. Give the Contact page link to the Contact Menu.
