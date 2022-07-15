@@ -4,8 +4,6 @@ jQuery(document).ready(function(){
       var name =  jQuery("#name_1").val();
       var phone =  jQuery("#phone_1").val();
       var email =  jQuery("#email_1").val();
-      var city =  jQuery("#city_1").val();
-      var company =  jQuery("#company_1").val();
       var message =  jQuery("#message_1").val();
       var ajaxUrl =  jQuery("#ajaxUrl").val();
       var select_type =  "test select sdfsdf";
