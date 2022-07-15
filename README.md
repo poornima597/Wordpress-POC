@@ -113,7 +113,7 @@ function siteWideMessage() {
 ## Step 3 - Creating new template page
 Create Contact.php file and paste it below code. The below given is contact form which is used to show in frontend.
 <pre>
-<?php 
+
 /* Template Name: Contact Form */ 
 
 function mailtest_code(){   
